@@ -1,0 +1,10 @@
+@mixin br4($val:4px) {
+    border-radius: $val;
+    -moz-border-radius: $val;
+    -webkit-border-radius: $val;
+    -o-border-radius: $val;
+    -ms-border-radius: $val;
+}
+
+
+/*border-radius*/
