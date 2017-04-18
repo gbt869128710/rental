@@ -187,7 +187,7 @@
                     .dsnt {
                         width: 98%;
                         height: 20px;
-                        margin: 5px 0 0 5px;
+                        margin-top: 5px;
                         float: left;
                         border: none;
                     }
@@ -198,18 +198,18 @@
                     background: #fff;
                     border: 1px solid #dddddd;
                     line-height: 30px;
-                    text-indent: 5px;
                     color: #666;
                     position: absolute;
                     top: 31px;
                     left: 76px;
+                    display: none;
                 }
             }
             .plate {
                 width: 534px;
                 height: 32px;
                 line-height: 32px;
-                margin-top: 10px;
+                margin-top: 28px;
                 .s1 {
                     color: #ff2626;
                     @extend .span;
@@ -327,7 +327,7 @@
                         height: 20px;
                         float: left;
                         border: none;
-                        margin: 5px 0 0 5px;
+                        margin-top: 5px;
                     }
                     .square {
                         font-size: 16px;
@@ -361,7 +361,7 @@
                         height: 20px;
                         float: left;
                         border: none;
-                        margin: 5px 0 0 5px;
+                        margin-top: 5px;
                     }
                     .square {
                         font-size: 16px;
@@ -474,16 +474,6 @@
                     border: 1px solid #dddddd;
                     @include br4;
                     float: left;
-                }
-                .verify {
-                    float: left;
-                    margin-left: 10px;
-                }
-                .verify.r {
-                    color: red;
-                }
-                .verify.g {
-                    color: green;
                 }
                 .btn1 {
                     margin-top: 5px;
