@@ -499,7 +499,7 @@
                     height: 72px;
                     float: left;
                     @include br4(6px);
-                    line-height: 36px;
+                    line-height: 20px;
                 }
             }
             .btn {
@@ -512,6 +512,14 @@
                 color: #fff;
                 border: none;
                 letter-spacing: 5px;
+                box-shadow: 1px 1px 2px 2px darken(#ec6c00, 10%);
+                &:active {
+                    box-shadow: 1px 1px 2px 2px darken(#ec6c00, 10%) inset;
+                }
+            }
+            .refer {
+                color: #ff2626;
+                ;
             }
         }
     }
